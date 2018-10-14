@@ -1,0 +1,16 @@
+body{
+	background: url(/Users/laurenharris/Desktop/Plant-Archive/test.JPG) repeat scroll center center;
+}
+
+h1{
+		color: black;
+		font-size: 90px;
+		text-decoration: bold;
+		background-color: white;
+		
+	}
+	h2{
+		font-size: 60px;
+		color: lightpink;
+		background-color: white;
+	}

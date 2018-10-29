@@ -1,12 +1,84 @@
+html, body{
+	font-family: Bookman, Georgia, sans-serif;
+	margin: 0;
+}
+
+header{
+	padding: 40px 20px;
+	text-align: center;
+}
+
+
+.content{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 2px;
+}
+
+p.caption{
+	font-size: 30px;
+	font-style: italic;
+	text-align: center;
+	background-color: white;
+	padding: auto;
+	color: #333333;
+}
+
+.container{
+	position: relative;
+	width: 50%
+}
+
+.style1{
+	background-color: beige;
+}
+
+.container img{
+	width: 100%;
+	height: auto;
+}
+
+.container .btn{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #555;
+	color: white
+	font-size: 16px;
+	padding: 12px 24px
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.container .btn:hover{
+	background-color: black
+}
+
+
 body{
 	background: url(/Users/laurenharris/Desktop/Plant-Archive/test.JPG) repeat scroll center center;
 }
 
+ul{
+	list-style: none;
+	position: middle;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: #b3ff1a;
+	text-decoration: none;
+}
+
 h1{
-		color: black;
+		color: white;
 		font-size: 90px;
 		text-decoration: bold;
-		background-color: white;
+		text-shadow: 0 4px 20px black;
 		
 	}
 	h2{
@@ -14,3 +86,36 @@ h1{
 		color: lightpink;
 		background-color: white;
 	}
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: #e6e6e6;
+
+}
+
+footer ul{
+	text-align: center;
+}
+
+ul li{
+	display: inline-block;
+	background-color: darkcyan;
+	margin: 0 5px;
+}
+
+body img{
+	max-width: 50%;
+	height: auto;
+	border-radius: 400px;
+	border: 1px solid white;
+	box-shadow: 0 10px 20px black;
+}
+header img{
+	max-width: 100%;
+	border-radius: 70px;
+	border: 1px solid white;
+	box-shadow: 0 10px 20px black;
+
+}
+

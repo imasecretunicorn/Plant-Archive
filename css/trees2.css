@@ -1,0 +1,334 @@
+html, body{
+  font-family: Bookman, Georgia, sans-serif;
+  margin: 0;
+}
+
+header{
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.topnav{
+  background-color:#006622;
+  overflow: hidden;
+}
+
+.topnav a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  max-width: 70px;
+}
+
+.topnav a:hover{
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active{
+  background-color: #4CAF50;
+  color: white
+}
+
+.content{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2px;
+}
+
+p.caption{
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  background-color: white;
+  padding: auto;
+  color: #333333;
+}
+
+.container{
+  position: relative;
+  width: 50%
+}
+
+.style1{
+  background-color: beige;
+}
+
+.container img{
+  width: 100%;
+  height: auto;
+}
+
+.container .btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white
+  font-size: 16px;
+  padding: 12px 24px
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover{
+  background-color: black
+}
+
+
+body{
+  background: url(/Users/laurenharris/Desktop/Plant-Archive/test.JPG) repeat scroll center center;
+}
+
+ul{
+  list-style: none;
+  position: middle;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  color: #b3ff1a;
+  text-decoration: none;
+}
+
+h1{
+    color: white;
+    font-size: 90px;
+    text-decoration: bold;
+    text-shadow: 0 4px 20px black;
+    
+  }
+  h2{
+    font-size: 60px;
+    color: lightpink;
+    background-color: white;
+  }
+
+footer{
+  margin-top: 20px;
+  padding: 40px 20px;
+  background-color: #e6e6e6;
+
+}
+
+footer ul{
+  text-align: center;
+}
+
+ul li{
+  display: inline-block;
+  background-color: darkcyan;
+  margin: 0 5px;
+}
+
+header img{
+  max-width: 100%;
+  border-radius: 70px;
+  border: 1px solid white;
+  box-shadow: 0 10px 20px black;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: .9;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.topnav{
+  background-color:#006622;
+  overflow: hidden;
+}
+
+.topnav a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  max-width: 70px;
+}
+
+.topnav a:hover{
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active{
+  background-color: #4CAF50;
+  color: white
+}
+
+.content{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2px;
+}
+
+p.caption{
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  background-color: white;
+  padding: auto;
+  color: #333333;
+}
+
+.container{
+  position: relative;
+  width: 50%
+}
+
+.style1{
+  background-color: beige;
+}
+
+body{
+  background: url(/Users/laurenharris/Desktop/Plant-Archive/test.JPG) repeat scroll center center;
+}
+
+<html>
+<head>
+<style>
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="gallery">
+  <a target="_blank" href="fjords.jpg">
+    <img src="5terre.jpg" alt="Cinque Terre" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="forest.jpg">
+    <img src="forest.jpg" alt="Forest" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="lights.jpg">
+    <img src="lights.jpg" alt="Northern Lights" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="mountains.jpg">
+    <img src="mountains.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+</body>
+</html>
